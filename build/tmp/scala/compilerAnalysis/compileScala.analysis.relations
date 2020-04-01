@@ -1,0 +1,19 @@
+products:
+   src/main/scala/com/example/HttpVerticle.scala -> build/classes/main/com/example/HttpVerticle$.class
+   src/main/scala/com/example/HttpVerticle.scala -> build/classes/main/com/example/HttpVerticle.class
+   src/main/scala/com/example/Starter.scala -> build/classes/main/com/example/Starter.class
+binary dependencies:
+   src/main/scala/com/example/HttpVerticle.scala -> /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/rt.jar
+   src/main/scala/com/example/HttpVerticle.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-core/3.4.0.Beta1/989af8d2d3978cf20a8ff76a57b77d732bba20c7/vertx-core-3.4.0.Beta1.jar
+   src/main/scala/com/example/HttpVerticle.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-lang-scala_2.12/3.4.0.Beta1/b4f4290fe8fac2091df2118c5068e2301f38bb28/vertx-lang-scala_2.12-3.4.0.Beta1.jar
+   src/main/scala/com/example/HttpVerticle.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-web-scala_2.12/3.4.0.Beta1/9a965fb9b7530ce17031e1391be790fa58feea27/vertx-web-scala_2.12-3.4.0.Beta1.jar
+   src/main/scala/com/example/HttpVerticle.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.1/dd235d04037dc6f4b6090257872dd35359a563ce/scala-library-2.12.1.jar
+   src/main/scala/com/example/Starter.scala -> /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/rt.jar
+   src/main/scala/com/example/Starter.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-lang-scala_2.12/3.4.0.Beta1/b4f4290fe8fac2091df2118c5068e2301f38bb28/vertx-lang-scala_2.12-3.4.0.Beta1.jar
+   src/main/scala/com/example/Starter.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.1/dd235d04037dc6f4b6090257872dd35359a563ce/scala-library-2.12.1.jar
+source dependencies:
+external dependencies:
+class names:
+   src/main/scala/com/example/HttpVerticle.scala -> com.example.HttpVerticle
+   src/main/scala/com/example/HttpVerticle.scala -> com.example.HttpVerticle$
+   src/main/scala/com/example/Starter.scala -> com.example.Starter

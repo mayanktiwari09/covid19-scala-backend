@@ -1,5 +1,6 @@
 package com.example
 
+import io.vertx.core.http.HttpMethod
 import io.vertx.lang.scala.ScalaVerticle
 import io.vertx.scala.core.http.HttpServer
 import io.vertx.scala.ext.web.{Router, RoutingContext}
@@ -24,7 +25,7 @@ class HttpVerticle extends ScalaVerticle {
     val p = Promise[Unit]()
 
     val router = Router.router(vertx)
-    router.route("/").handler(routeRoot)
+    router.route(HttpMethod.GET,"/testAPI").handler(routeRoot)
 
     val port = config.getInteger(HttpVerticle.HTTP_PORT, HttpVerticle.DEFAULT_HTTP_PORT)
     val host = config.getString(HttpVerticle.HTTP_HOST, HttpVerticle.DEFAULT_HTTP_HOST)
