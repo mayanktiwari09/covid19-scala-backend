@@ -22,7 +22,7 @@ javac options:
 8 -> -XDuseUnsharedTable=true
 compiler version:
 1 items
-0 -> 2.12.1
+0 -> 2.12.10
 compile order:
 1 items
 0 -> Mixed
@@ -30,20 +30,69 @@ name hashing:
 1 items
 0 -> true
 products:
-3 items
+22 items
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> /Users/i335352/IdeaProjects/covid19-scala-backend/build/classes/main/com/example/DatabaseService$.class
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> /Users/i335352/IdeaProjects/covid19-scala-backend/build/classes/main/com/example/DatabaseService.class
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> /Users/i335352/IdeaProjects/covid19-scala-backend/build/classes/main/com/example/PostgresProperties$.class
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> /Users/i335352/IdeaProjects/covid19-scala-backend/build/classes/main/com/example/PostgresProperties.class
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> /Users/i335352/IdeaProjects/covid19-scala-backend/build/classes/main/com/example/HttpVerticle$$typecreator1$1.class
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> /Users/i335352/IdeaProjects/covid19-scala-backend/build/classes/main/com/example/HttpVerticle$.class
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> /Users/i335352/IdeaProjects/covid19-scala-backend/build/classes/main/com/example/HttpVerticle$anon$macro$2$1.class
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> /Users/i335352/IdeaProjects/covid19-scala-backend/build/classes/main/com/example/HttpVerticle.class
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> /Users/i335352/IdeaProjects/covid19-scala-backend/build/classes/main/com/example/test$.class
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> /Users/i335352/IdeaProjects/covid19-scala-backend/build/classes/main/com/example/test.class
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/Starter.scala -> /Users/i335352/IdeaProjects/covid19-scala-backend/build/classes/main/com/example/Starter.class
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/EnvironmentUtils.scala -> /Users/i335352/IdeaProjects/covid19-scala-backend/build/classes/main/com/example/reuse/EnvironmentUtils$.class
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/EnvironmentUtils.scala -> /Users/i335352/IdeaProjects/covid19-scala-backend/build/classes/main/com/example/reuse/EnvironmentUtils.class
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/JsonDataFormatter.scala -> /Users/i335352/IdeaProjects/covid19-scala-backend/build/classes/main/com/example/reuse/JsonDataFormatter$$anon$1.class
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/JsonDataFormatter.scala -> /Users/i335352/IdeaProjects/covid19-scala-backend/build/classes/main/com/example/reuse/JsonDataFormatter$.class
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/JsonDataFormatter.scala -> /Users/i335352/IdeaProjects/covid19-scala-backend/build/classes/main/com/example/reuse/JsonDataFormatter.class
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> /Users/i335352/IdeaProjects/covid19-scala-backend/build/classes/main/com/example/reuse/CacheConfigUtils$.class
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> /Users/i335352/IdeaProjects/covid19-scala-backend/build/classes/main/com/example/reuse/CacheConfigUtils.class
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> /Users/i335352/IdeaProjects/covid19-scala-backend/build/classes/main/com/example/reuse/Destination$.class
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> /Users/i335352/IdeaProjects/covid19-scala-backend/build/classes/main/com/example/reuse/Destination.class
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> /Users/i335352/IdeaProjects/covid19-scala-backend/build/classes/main/com/example/reuse/SystemUtils$.class
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> /Users/i335352/IdeaProjects/covid19-scala-backend/build/classes/main/com/example/reuse/SystemUtils.class
 binary dependencies:
-8 items
+38 items
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/rt.jar
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/com.zaxxer/HikariCP/3.4.1/842894380a73b72c2ecd9e483403e4d5ef7d8b76/HikariCP-3.4.1.jar
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/io.monix/monix-eval_2.12/3.1.0/10c60aaa4c977719d1e4c805f0e1c78b98a8c589/monix-eval_2.12-3.1.0.jar
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/org.json/json/20190722/7bce7bacf0ab5e9f894d307a3de8b7f540064d5/json-20190722.jar
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/org.postgresql/postgresql/42.0.0/938ede0cdf862cc4eaba5023a86254783af1d261/postgresql-42.0.0.jar
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.10/3509860bc2e5b3da001ed45aca94ffbe5694dbda/scala-library-2.12.10.jar
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/4.3.7.RELEASE/305c8db0f9552948aec093528cd01393cc98a646/spring-jdbc-4.3.7.RELEASE.jar
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/org.tpolecat/doobie-core_2.12/0.8.6/b53cd8150341a5a01adf6a6bf577f76ced6c006d/doobie-core_2.12-0.8.6.jar
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/org.tpolecat/doobie-hikari_2.12/0.8.6/8901a2ea41337090d59f1c1ac4ff9ccb96008f6/doobie-hikari_2.12-0.8.6.jar
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/org.typelevel/cats-effect_2.12/2.0.0/6a6a5e151b784fc4a379d86f513fad14cfda73e0/cats-effect_2.12-2.0.0.jar
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/rt.jar
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/com.chuusai/shapeless_2.12/2.3.3/6041e2c4871650c556a9c6842e43c04ed462b11f/shapeless_2.12-2.3.3.jar
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/com.lihaoyi/sourcecode_2.12/0.1.8/9abfcdfba524ddc584a8a347421a59f6a27fb128/sourcecode_2.12-0.1.8.jar
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/io.monix/monix-eval_2.12/3.1.0/10c60aaa4c977719d1e4c805f0e1c78b98a8c589/monix-eval_2.12-3.1.0.jar
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/io.monix/monix-execution_2.12/3.1.0/6e2ac98be41b079fcc7292c8dea0e8c0914a9542/monix-execution_2.12-3.1.0.jar
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-core/3.4.0.Beta1/989af8d2d3978cf20a8ff76a57b77d732bba20c7/vertx-core-3.4.0.Beta1.jar
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-lang-scala_2.12/3.4.0.Beta1/b4f4290fe8fac2091df2118c5068e2301f38bb28/vertx-lang-scala_2.12-3.4.0.Beta1.jar
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-web-scala_2.12/3.4.0.Beta1/9a965fb9b7530ce17031e1391be790fa58feea27/vertx-web-scala_2.12-3.4.0.Beta1.jar
-/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.1/dd235d04037dc6f4b6090257872dd35359a563ce/scala-library-2.12.1.jar
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.10/3509860bc2e5b3da001ed45aca94ffbe5694dbda/scala-library-2.12.10.jar
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.12.10/14cb7beb516cd8e07716133668c427792122c926/scala-reflect-2.12.10.jar
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/org.tpolecat/doobie-core_2.12/0.8.6/b53cd8150341a5a01adf6a6bf577f76ced6c006d/doobie-core_2.12-0.8.6.jar
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/org.tpolecat/doobie-hikari_2.12/0.8.6/8901a2ea41337090d59f1c1ac4ff9ccb96008f6/doobie-hikari_2.12-0.8.6.jar
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/org.typelevel/cats-effect_2.12/2.0.0/6a6a5e151b784fc4a379d86f513fad14cfda73e0/cats-effect_2.12-2.0.0.jar
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/org.typelevel/cats-free_2.12/2.0.0/5716d6c9a1b1698f0ac7b6594543702422230866/cats-free_2.12-2.0.0.jar
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/Starter.scala -> /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/rt.jar
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/Starter.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-lang-scala_2.12/3.4.0.Beta1/b4f4290fe8fac2091df2118c5068e2301f38bb28/vertx-lang-scala_2.12-3.4.0.Beta1.jar
-/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/Starter.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.1/dd235d04037dc6f4b6090257872dd35359a563ce/scala-library-2.12.1.jar
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/Starter.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.10/3509860bc2e5b3da001ed45aca94ffbe5694dbda/scala-library-2.12.10.jar
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/EnvironmentUtils.scala -> /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/rt.jar
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/EnvironmentUtils.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.10/3509860bc2e5b3da001ed45aca94ffbe5694dbda/scala-library-2.12.10.jar
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/JsonDataFormatter.scala -> /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/rt.jar
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/JsonDataFormatter.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.10.0/1127c9cf62f2bb3121a3a2a0a1351d251a602117/jackson-databind-2.10.0.jar
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/JsonDataFormatter.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.9.7/cbd919f1ce67533e07b98dd493247e8dbabc26b2/jackson-datatype-jsr310-2.9.7.jar
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/JsonDataFormatter.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.module/jackson-module-scala_2.12/2.10.0/343a5406ea085a42d14997c1f0ce3ca8af6e74d9/jackson-module-scala_2.12-2.10.0.jar
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/JsonDataFormatter.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.10/3509860bc2e5b3da001ed45aca94ffbe5694dbda/scala-library-2.12.10.jar
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/rt.jar
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/org.json/json/20190722/7bce7bacf0ab5e9f894d307a3de8b7f540064d5/json-20190722.jar
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.10/3509860bc2e5b3da001ed45aca94ffbe5694dbda/scala-library-2.12.10.jar
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/org.typelevel/cats-core_2.12/2.0.0/b15de4ed2b0f31b118acab7d12cab4962df2130c/cats-core_2.12-2.0.0.jar
 direct source dependencies:
 0 items
 direct external dependencies:
@@ -53,7 +102,11 @@ public inherited source dependencies:
 public inherited external dependencies:
 0 items
 member reference internal dependencies:
-0 items
+4 items
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/EnvironmentUtils.scala
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/JsonDataFormatter.scala
 member reference external dependencies:
 0 items
 inheritance internal dependencies:
@@ -61,39 +114,226 @@ inheritance internal dependencies:
 inheritance external dependencies:
 0 items
 class names:
-3 items
+22 items
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> com.example.DatabaseService
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> com.example.DatabaseService$
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> com.example.PostgresProperties
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> com.example.PostgresProperties$
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> com.example.HttpVerticle
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> com.example.HttpVerticle$
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> com.example.HttpVerticle$$typecreator1$1
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> com.example.HttpVerticle$anon$macro$2$1
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> com.example.test
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> com.example.test$
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/Starter.scala -> com.example.Starter
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/EnvironmentUtils.scala -> com.example.reuse.EnvironmentUtils
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/EnvironmentUtils.scala -> com.example.reuse.EnvironmentUtils$
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/JsonDataFormatter.scala -> com.example.reuse.JsonDataFormatter
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/JsonDataFormatter.scala -> com.example.reuse.JsonDataFormatter$
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/JsonDataFormatter.scala -> com.example.reuse.JsonDataFormatter$$anon$1
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> com.example.reuse.CacheConfigUtils
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> com.example.reuse.CacheConfigUtils$
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> com.example.reuse.Destination
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> com.example.reuse.Destination$
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> com.example.reuse.SystemUtils
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> com.example.reuse.SystemUtils$
 used names:
-105 items
+520 items
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> &&
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> <init>
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> ==
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> AbstractFunction5
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> AnyRef
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> Blocker
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> Boolean
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> DatabaseService
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> Driver
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> EnvironmentUtils
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> ExecutionContexts
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> HikariConfig
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> HikariDataSource
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> HikariTransactor
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> Int
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> JR
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> JSONObject
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> JdbcTemplate
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> Long
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> None
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> Option
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> PostgresProperties
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> Predef
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> Product
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> Resource
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> RuntimeException
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> ScalaRunTime
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> Serializable
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> String
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> StringContext
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> SystemUtils
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> Task
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> Tuple5
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> _hashCode
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> _toString
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> apply
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> asInstanceOf
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> autoCommit
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> be
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> cats
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> catsAsync
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> ce
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> cf
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> com
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> connectionTimeout
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> contextShift
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> core
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> createDataSource
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> createTransactor
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> dbName
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> doobie
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> ds
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> effect
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> envObject
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> environment
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> eq
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> eval
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> example
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> fixedThreadPool
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> flatMap
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> get
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> getEnvPropertyFromServices
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> getName
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> hc
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> hikari
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> host
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> hostname
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> idleTimeout
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> isInstanceOf
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> jdbc
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> jdbcTemplate
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> json
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> map
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> maxLifetime
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> maxPoolSize
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> minIdlePoolSize
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> monix
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> org
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> package
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> password
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> pgService
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> port
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> postgresCredentials
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> postgresParamMapper
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> postgresService
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> postgresql
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> reuse
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> runtime
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> s
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> scala
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> setAutoCommit
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> setConnectionTestQuery
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> setConnectionTimeout
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> setDriverClassName
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> setIdleTimeout
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> setJdbcUrl
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> setMaxLifetime
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> setMaximumPoolSize
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> setMinimumIdle
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> setPassword
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> setPoolName
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> setUsername
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> springframework
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> toString
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> transactor
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> typedProductIterator
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> user
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> username
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> util
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> value
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> zaxxer
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> ||
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> $m
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> $m$untyped
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> $typecreator1
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> $u
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> &&
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> +
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> ::
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> <init>
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> =:=
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> ==
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> AbstractFunction1
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> AnyRef
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> Aux
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> CanBlock
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> DEFAULT_HTTP_HOST
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> DEFAULT_HTTP_PORT
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> DatabaseService
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> FactoryCompat
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> Failure
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> File
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> Future
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> Generic
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> Get
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> HNil
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> HTTP_HOST
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> HTTP_PORT
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> HttpMethod
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> HttpServer
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> HttpVerticle
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> Implicits
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> Integer2int
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> IsHCons
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> JR
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> Lazy
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> Line
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> List
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> Meta
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> Mirror
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> NAME
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> None
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> Nothing
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> Option
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> Param
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> Pos
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> Predef
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> Product
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> Promise
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> Read
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> Repr
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> Router
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> RoutingContext
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> ScalaRunTime
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> ScalaVerticle
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> Scheduler
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> Serializable
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> Singleton
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> String
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> StringContext
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> StringMeta
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> Success
-/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> Thread
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> Task
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> Type
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> TypeCreator
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> TypeTag
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> U
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> Unit
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> Universe
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> _hashCode
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> _root_
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> _toString
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> accept
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> anon$macro$2
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> api
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> apply
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> applyDynamic
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> applyProduct
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> asInstanceOf
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> asType
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> canBuildFrom
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> catsAsync
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> closeFuture
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> com
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> compat
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> concurrent
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> config
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> core
@@ -101,49 +341,105 @@ used names:
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> ctx
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> currentThread
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> deploymentID
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> doobie
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> end
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> eq
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> eval
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> ex
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> example
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> exception
-/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> executionContext
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> execution
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> ext
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> failure
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> flatMap
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> fromCanBuildFrom
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> fromGet
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> future
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> generate
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> getCause
-/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> getId
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> getClassLoader
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> getData
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> getInteger
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> getString
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> global
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> handler
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> head
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> hlist
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> hlistIsHCons
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> hnil
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> host
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> http
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> immutable
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> implicits
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> inst$macro$4
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> int2Integer
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> io
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> isInstanceOf
-/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> java
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> jr
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> lang
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> listenFuture
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> map
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> materialize
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> materializeTypeTag
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> metaProjection
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> mkLazy
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> monix
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> ne
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> onComplete
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> p
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> package
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> param
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> pat$macro$1
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> permit
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> port
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> pos
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> println
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> q
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> qual$1
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> query
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> reflect
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> requestHandler
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> response
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> route
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> routeRoot
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> router
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> runSyncUnsafe
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> runtime
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> runtimeMirror
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> s
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> scala
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> schedulers
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> server
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> server_=
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> shapeless
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> sourcePos
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> sourcecode
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> sql
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> startedServer
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> staticClass
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> success
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> tail
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> test
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> to
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> toConnectionIOOps
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> toSqlInterpolator
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> toString
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> toTypeConstructor
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> tpEquals
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> transact
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> transactor
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> typedProductIterator
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> unaryProductGet
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> undeployFuture
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> universe
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> use
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> util
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> value
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> vertx
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> web
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> x$1
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> x$2
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> ||
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/Starter.scala -> <init>
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/Starter.scala -> DeploymentOptions
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/Starter.scala -> Future
@@ -172,44 +468,315 @@ used names:
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/Starter.scala -> setInstances
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/Starter.scala -> undeployFuture
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/Starter.scala -> vertx
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/EnvironmentUtils.scala -> <init>
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/EnvironmentUtils.scala -> AnyRef
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/EnvironmentUtils.scala -> EnvironmentUtils
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/EnvironmentUtils.scala -> Predef
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/EnvironmentUtils.scala -> String
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/EnvironmentUtils.scala -> System
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/EnvironmentUtils.scala -> cf
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/EnvironmentUtils.scala -> com
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/EnvironmentUtils.scala -> environment
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/EnvironmentUtils.scala -> example
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/EnvironmentUtils.scala -> getenv
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/EnvironmentUtils.scala -> java
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/EnvironmentUtils.scala -> lang
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/EnvironmentUtils.scala -> local
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/EnvironmentUtils.scala -> neo
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/EnvironmentUtils.scala -> reuse
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/EnvironmentUtils.scala -> scala
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/JsonDataFormatter.scala -> $anon
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/JsonDataFormatter.scala -> <init>
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/JsonDataFormatter.scala -> Any
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/JsonDataFormatter.scala -> AnyRef
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/JsonDataFormatter.scala -> DefaultScalaModule
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/JsonDataFormatter.scala -> DeserializationFeature
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/JsonDataFormatter.scala -> JavaTimeModule
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/JsonDataFormatter.scala -> JsonDataFormatter
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/JsonDataFormatter.scala -> Manifest
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/JsonDataFormatter.scala -> ObjectMapper
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/JsonDataFormatter.scala -> Predef
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/JsonDataFormatter.scala -> ScalaObjectMapper
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/JsonDataFormatter.scala -> SerializationFeature
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/JsonDataFormatter.scala -> String
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/JsonDataFormatter.scala -> T
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/JsonDataFormatter.scala -> com
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/JsonDataFormatter.scala -> configure
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/JsonDataFormatter.scala -> databind
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/JsonDataFormatter.scala -> datatype
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/JsonDataFormatter.scala -> disable
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/JsonDataFormatter.scala -> example
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/JsonDataFormatter.scala -> fasterxml
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/JsonDataFormatter.scala -> findAndRegisterModules
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/JsonDataFormatter.scala -> jackson
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/JsonDataFormatter.scala -> jsr310
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/JsonDataFormatter.scala -> module
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/JsonDataFormatter.scala -> obj
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/JsonDataFormatter.scala -> objectMapper
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/JsonDataFormatter.scala -> readValue
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/JsonDataFormatter.scala -> registerModule
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/JsonDataFormatter.scala -> reuse
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/JsonDataFormatter.scala -> scala
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/JsonDataFormatter.scala -> str
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/JsonDataFormatter.scala -> writeValueAsString
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> $conforms
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> &&
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> <init>
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> ==
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> AC_BROKER_UAA
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> AC_HOST
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> AC_UAA
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> AbstractFunction2
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> AnyRef
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> CC_CLIENT_ID
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> CC_CLIENT_SECRET
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> CC_HOST
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> CREDENTIALS
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> CacheConfigUtils
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> ChronoUnit
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> DESTINATIONS
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> Destination
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> ENVIRONMENT
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> Function1
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> HOST
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> IndexedSeq
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> JSONArray
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> JSONObject
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> JSONTokener
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> JavaConverters
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> JsonDataFormatter
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> List
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> Long
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> ManifestFactory
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> NAME
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> None
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> NumberFormatException
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> Option
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> Predef
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> Product
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> RuntimeException
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> ScalaRunTime
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> Serializable
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> String
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> StringContext
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> System
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> SystemUtils
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> T
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> TemporalUnit
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> Tuple2
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> USER_PROVIDED
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> VCAP_APPLICATION
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> VCAP_SERVICES
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> XSUAA
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> _hashCode
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> _toString
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> acKeyO
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> apply
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> arrayOption
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> arrayValue
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> asInstanceOf
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> asScala
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> asScalaIteratorConverter
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> augmentString
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> callback
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> canBuildFrom
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> cats
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> catsSyntaxOptionId
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> classType
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> collection
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> com
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> contains
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> curName
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> defaultDuration
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> defaultSize
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> defaultUnit
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> deserialize
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> destination
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> destinations
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> destinationsL
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> duration
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> endpoint
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> eq
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> example
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> f
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> find
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> flatMap
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> get
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> getDestinations
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> getEnvProperty
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> getEnvPropertyFromServices
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> getJSONArray
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> getJSONObject
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> getString
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> getTimeDuration
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> getTimeUnit
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> getVcapServices
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> getVcapVariables
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> getenv
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> immutable
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> implicits
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> intWrapper
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> isInstanceOf
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> j
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> java
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> json
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> jsonArray
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> jsonObject
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> key
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> key1
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> key2
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> key3
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> keys
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> lang
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> length
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> map
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> name
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> org
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> package
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> parseLong
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> query
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> reflect
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> reuse
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> runtime
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> s
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> sDestinations
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> scala
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> some
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> stripMargin
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> stripSuffix
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> subKey
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> temporal
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> time
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> timeUnit
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> toList
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> toLong
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> toMap
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> toString
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> typedProductIterator
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> until
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> url
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> v
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> value
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> vcap
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> ||
 product stamps:
-3 items
-/Users/i335352/IdeaProjects/covid19-scala-backend/build/classes/main/com/example/HttpVerticle$.class -> lastModified(1585736833000)
-/Users/i335352/IdeaProjects/covid19-scala-backend/build/classes/main/com/example/HttpVerticle.class -> lastModified(1585736833000)
-/Users/i335352/IdeaProjects/covid19-scala-backend/build/classes/main/com/example/Starter.class -> lastModified(1585736711000)
+22 items
+/Users/i335352/IdeaProjects/covid19-scala-backend/build/classes/main/com/example/DatabaseService$.class -> lastModified(1585761745000)
+/Users/i335352/IdeaProjects/covid19-scala-backend/build/classes/main/com/example/DatabaseService.class -> lastModified(1585761745000)
+/Users/i335352/IdeaProjects/covid19-scala-backend/build/classes/main/com/example/HttpVerticle$$typecreator1$1.class -> lastModified(1585767245000)
+/Users/i335352/IdeaProjects/covid19-scala-backend/build/classes/main/com/example/HttpVerticle$.class -> lastModified(1585767245000)
+/Users/i335352/IdeaProjects/covid19-scala-backend/build/classes/main/com/example/HttpVerticle$anon$macro$2$1.class -> lastModified(1585767245000)
+/Users/i335352/IdeaProjects/covid19-scala-backend/build/classes/main/com/example/HttpVerticle.class -> lastModified(1585767245000)
+/Users/i335352/IdeaProjects/covid19-scala-backend/build/classes/main/com/example/PostgresProperties$.class -> lastModified(1585761745000)
+/Users/i335352/IdeaProjects/covid19-scala-backend/build/classes/main/com/example/PostgresProperties.class -> lastModified(1585761745000)
+/Users/i335352/IdeaProjects/covid19-scala-backend/build/classes/main/com/example/Starter.class -> lastModified(1585760396000)
+/Users/i335352/IdeaProjects/covid19-scala-backend/build/classes/main/com/example/reuse/CacheConfigUtils$.class -> lastModified(1585760589000)
+/Users/i335352/IdeaProjects/covid19-scala-backend/build/classes/main/com/example/reuse/CacheConfigUtils.class -> lastModified(1585760589000)
+/Users/i335352/IdeaProjects/covid19-scala-backend/build/classes/main/com/example/reuse/Destination$.class -> lastModified(1585760589000)
+/Users/i335352/IdeaProjects/covid19-scala-backend/build/classes/main/com/example/reuse/Destination.class -> lastModified(1585760589000)
+/Users/i335352/IdeaProjects/covid19-scala-backend/build/classes/main/com/example/reuse/EnvironmentUtils$.class -> lastModified(1585760396000)
+/Users/i335352/IdeaProjects/covid19-scala-backend/build/classes/main/com/example/reuse/EnvironmentUtils.class -> lastModified(1585760396000)
+/Users/i335352/IdeaProjects/covid19-scala-backend/build/classes/main/com/example/reuse/JsonDataFormatter$$anon$1.class -> lastModified(1585760396000)
+/Users/i335352/IdeaProjects/covid19-scala-backend/build/classes/main/com/example/reuse/JsonDataFormatter$.class -> lastModified(1585760396000)
+/Users/i335352/IdeaProjects/covid19-scala-backend/build/classes/main/com/example/reuse/JsonDataFormatter.class -> lastModified(1585760396000)
+/Users/i335352/IdeaProjects/covid19-scala-backend/build/classes/main/com/example/reuse/SystemUtils$.class -> lastModified(1585760589000)
+/Users/i335352/IdeaProjects/covid19-scala-backend/build/classes/main/com/example/reuse/SystemUtils.class -> lastModified(1585760589000)
+/Users/i335352/IdeaProjects/covid19-scala-backend/build/classes/main/com/example/test$.class -> lastModified(1585767245000)
+/Users/i335352/IdeaProjects/covid19-scala-backend/build/classes/main/com/example/test.class -> lastModified(1585767245000)
 source stamps:
-2 items
-/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> hash(8e51419e5933518115bcb3fe522a83dd7d37ad7b)
+6 items
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> hash(7557f7b5f6cce95018082ebe8a275eb198803fcc)
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> hash(4671301a65cf20182a1a247a3891bb9efabb1fc3)
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/Starter.scala -> hash(ac8d2a11a92a26e2daba734c86e28741cd322a5e)
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/EnvironmentUtils.scala -> hash(364aae9bb3acdbe914994724f7e5b7c10a9d2251)
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/JsonDataFormatter.scala -> hash(3fa3e5e63be852fcc25e1c8dcd3401faf3a8c795)
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> hash(64d2b294993db7a5434449e358e6858427efaee8)
 binary stamps:
-5 items
+22 items
 /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/rt.jar -> lastModified(1579445320000)
+/Users/i335352/.gradle/caches/modules-2/files-2.1/com.chuusai/shapeless_2.12/2.3.3/6041e2c4871650c556a9c6842e43c04ed462b11f/shapeless_2.12-2.3.3.jar -> lastModified(1582528781000)
+/Users/i335352/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.10.0/1127c9cf62f2bb3121a3a2a0a1351d251a602117/jackson-databind-2.10.0.jar -> lastModified(1582528944000)
+/Users/i335352/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.9.7/cbd919f1ce67533e07b98dd493247e8dbabc26b2/jackson-datatype-jsr310-2.9.7.jar -> lastModified(1582528827000)
+/Users/i335352/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.module/jackson-module-scala_2.12/2.10.0/343a5406ea085a42d14997c1f0ce3ca8af6e74d9/jackson-module-scala_2.12-2.10.0.jar -> lastModified(1584855030000)
+/Users/i335352/.gradle/caches/modules-2/files-2.1/com.lihaoyi/sourcecode_2.12/0.1.8/9abfcdfba524ddc584a8a347421a59f6a27fb128/sourcecode_2.12-0.1.8.jar -> lastModified(1582528784000)
+/Users/i335352/.gradle/caches/modules-2/files-2.1/com.zaxxer/HikariCP/3.4.1/842894380a73b72c2ecd9e483403e4d5ef7d8b76/HikariCP-3.4.1.jar -> lastModified(1582528776000)
+/Users/i335352/.gradle/caches/modules-2/files-2.1/io.monix/monix-eval_2.12/3.1.0/10c60aaa4c977719d1e4c805f0e1c78b98a8c589/monix-eval_2.12-3.1.0.jar -> lastModified(1582528777000)
+/Users/i335352/.gradle/caches/modules-2/files-2.1/io.monix/monix-execution_2.12/3.1.0/6e2ac98be41b079fcc7292c8dea0e8c0914a9542/monix-execution_2.12-3.1.0.jar -> lastModified(1582528780000)
 /Users/i335352/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-core/3.4.0.Beta1/989af8d2d3978cf20a8ff76a57b77d732bba20c7/vertx-core-3.4.0.Beta1.jar -> lastModified(1585730203000)
 /Users/i335352/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-lang-scala_2.12/3.4.0.Beta1/b4f4290fe8fac2091df2118c5068e2301f38bb28/vertx-lang-scala_2.12-3.4.0.Beta1.jar -> lastModified(1585730196000)
 /Users/i335352/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-web-scala_2.12/3.4.0.Beta1/9a965fb9b7530ce17031e1391be790fa58feea27/vertx-web-scala_2.12-3.4.0.Beta1.jar -> lastModified(1585730198000)
-/Users/i335352/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.1/dd235d04037dc6f4b6090257872dd35359a563ce/scala-library-2.12.1.jar -> lastModified(1585730193000)
+/Users/i335352/.gradle/caches/modules-2/files-2.1/org.json/json/20190722/7bce7bacf0ab5e9f894d307a3de8b7f540064d5/json-20190722.jar -> lastModified(1584854948000)
+/Users/i335352/.gradle/caches/modules-2/files-2.1/org.postgresql/postgresql/42.0.0/938ede0cdf862cc4eaba5023a86254783af1d261/postgresql-42.0.0.jar -> lastModified(1585749226000)
+/Users/i335352/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.10/3509860bc2e5b3da001ed45aca94ffbe5694dbda/scala-library-2.12.10.jar -> lastModified(1582528790000)
+/Users/i335352/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.12.10/14cb7beb516cd8e07716133668c427792122c926/scala-reflect-2.12.10.jar -> lastModified(1582528780000)
+/Users/i335352/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/4.3.7.RELEASE/305c8db0f9552948aec093528cd01393cc98a646/spring-jdbc-4.3.7.RELEASE.jar -> lastModified(1585749274000)
+/Users/i335352/.gradle/caches/modules-2/files-2.1/org.tpolecat/doobie-core_2.12/0.8.6/b53cd8150341a5a01adf6a6bf577f76ced6c006d/doobie-core_2.12-0.8.6.jar -> lastModified(1582528778000)
+/Users/i335352/.gradle/caches/modules-2/files-2.1/org.tpolecat/doobie-hikari_2.12/0.8.6/8901a2ea41337090d59f1c1ac4ff9ccb96008f6/doobie-hikari_2.12-0.8.6.jar -> lastModified(1582528776000)
+/Users/i335352/.gradle/caches/modules-2/files-2.1/org.typelevel/cats-core_2.12/2.0.0/b15de4ed2b0f31b118acab7d12cab4962df2130c/cats-core_2.12-2.0.0.jar -> lastModified(1582528780000)
+/Users/i335352/.gradle/caches/modules-2/files-2.1/org.typelevel/cats-effect_2.12/2.0.0/6a6a5e151b784fc4a379d86f513fad14cfda73e0/cats-effect_2.12-2.0.0.jar -> lastModified(1582528778000)
+/Users/i335352/.gradle/caches/modules-2/files-2.1/org.typelevel/cats-free_2.12/2.0.0/5716d6c9a1b1698f0ac7b6594543702422230866/cats-free_2.12-2.0.0.jar -> lastModified(1582528778000)
 class names:
-5 items
+22 items
 /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/rt.jar -> java.lang.Object
-/Users/i335352/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-core/3.4.0.Beta1/989af8d2d3978cf20a8ff76a57b77d732bba20c7/vertx-core-3.4.0.Beta1.jar -> io.vertx.core.http.HttpMethod
+/Users/i335352/.gradle/caches/modules-2/files-2.1/com.chuusai/shapeless_2.12/2.3.3/6041e2c4871650c556a9c6842e43c04ed462b11f/shapeless_2.12-2.3.3.jar -> shapeless.Generic
+/Users/i335352/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.10.0/1127c9cf62f2bb3121a3a2a0a1351d251a602117/jackson-databind-2.10.0.jar -> com.fasterxml.jackson.databind.ObjectMapper
+/Users/i335352/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.9.7/cbd919f1ce67533e07b98dd493247e8dbabc26b2/jackson-datatype-jsr310-2.9.7.jar -> com.fasterxml.jackson.datatype.jsr310.JavaTimeModule
+/Users/i335352/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.module/jackson-module-scala_2.12/2.10.0/343a5406ea085a42d14997c1f0ce3ca8af6e74d9/jackson-module-scala_2.12-2.10.0.jar -> com.fasterxml.jackson.module.scala.ScalaObjectMapper
+/Users/i335352/.gradle/caches/modules-2/files-2.1/com.lihaoyi/sourcecode_2.12/0.1.8/9abfcdfba524ddc584a8a347421a59f6a27fb128/sourcecode_2.12-0.1.8.jar -> sourcecode.FileMacros
+/Users/i335352/.gradle/caches/modules-2/files-2.1/com.zaxxer/HikariCP/3.4.1/842894380a73b72c2ecd9e483403e4d5ef7d8b76/HikariCP-3.4.1.jar -> com.zaxxer.hikari.HikariDataSource
+/Users/i335352/.gradle/caches/modules-2/files-2.1/io.monix/monix-eval_2.12/3.1.0/10c60aaa4c977719d1e4c805f0e1c78b98a8c589/monix-eval_2.12-3.1.0.jar -> monix.eval.Task$
+/Users/i335352/.gradle/caches/modules-2/files-2.1/io.monix/monix-execution_2.12/3.1.0/6e2ac98be41b079fcc7292c8dea0e8c0914a9542/monix-execution_2.12-3.1.0.jar -> monix.execution.Scheduler$
+/Users/i335352/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-core/3.4.0.Beta1/989af8d2d3978cf20a8ff76a57b77d732bba20c7/vertx-core-3.4.0.Beta1.jar -> io.vertx.core.json.JsonObject
 /Users/i335352/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-lang-scala_2.12/3.4.0.Beta1/b4f4290fe8fac2091df2118c5068e2301f38bb28/vertx-lang-scala_2.12-3.4.0.Beta1.jar -> io.vertx.lang.scala.ScalaVerticle
-/Users/i335352/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-web-scala_2.12/3.4.0.Beta1/9a965fb9b7530ce17031e1391be790fa58feea27/vertx-web-scala_2.12-3.4.0.Beta1.jar -> io.vertx.scala.ext.web.RoutingContext
-/Users/i335352/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.1/dd235d04037dc6f4b6090257872dd35359a563ce/scala-library-2.12.1.jar -> scala.Int
+/Users/i335352/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-web-scala_2.12/3.4.0.Beta1/9a965fb9b7530ce17031e1391be790fa58feea27/vertx-web-scala_2.12-3.4.0.Beta1.jar -> io.vertx.scala.ext.web.RoutingContext$
+/Users/i335352/.gradle/caches/modules-2/files-2.1/org.json/json/20190722/7bce7bacf0ab5e9f894d307a3de8b7f540064d5/json-20190722.jar -> org.json.JSONObject
+/Users/i335352/.gradle/caches/modules-2/files-2.1/org.postgresql/postgresql/42.0.0/938ede0cdf862cc4eaba5023a86254783af1d261/postgresql-42.0.0.jar -> org.postgresql.Driver
+/Users/i335352/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.10/3509860bc2e5b3da001ed45aca94ffbe5694dbda/scala-library-2.12.10.jar -> scala.Product
+/Users/i335352/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.12.10/14cb7beb516cd8e07716133668c427792122c926/scala-reflect-2.12.10.jar -> scala.reflect.api.TypeCreator
+/Users/i335352/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/4.3.7.RELEASE/305c8db0f9552948aec093528cd01393cc98a646/spring-jdbc-4.3.7.RELEASE.jar -> org.springframework.jdbc.core.JdbcTemplate
+/Users/i335352/.gradle/caches/modules-2/files-2.1/org.tpolecat/doobie-core_2.12/0.8.6/b53cd8150341a5a01adf6a6bf577f76ced6c006d/doobie-core_2.12-0.8.6.jar -> doobie.util.query$
+/Users/i335352/.gradle/caches/modules-2/files-2.1/org.tpolecat/doobie-hikari_2.12/0.8.6/8901a2ea41337090d59f1c1ac4ff9ccb96008f6/doobie-hikari_2.12-0.8.6.jar -> doobie.hikari.package$
+/Users/i335352/.gradle/caches/modules-2/files-2.1/org.typelevel/cats-core_2.12/2.0.0/b15de4ed2b0f31b118acab7d12cab4962df2130c/cats-core_2.12-2.0.0.jar -> cats.syntax.OptionSyntax
+/Users/i335352/.gradle/caches/modules-2/files-2.1/org.typelevel/cats-effect_2.12/2.0.0/6a6a5e151b784fc4a379d86f513fad14cfda73e0/cats-effect_2.12-2.0.0.jar -> cats.effect.Resource
+/Users/i335352/.gradle/caches/modules-2/files-2.1/org.typelevel/cats-free_2.12/2.0.0/5716d6c9a1b1698f0ac7b6594543702422230866/cats-free_2.12-2.0.0.jar -> cats.free.Free
 internal apis:
-2 items
+6 items
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAllrn9AHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAOHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cLZtILJ0AA9EYXRhYmFzZVNlcnZpY2VzcQB+AAw7MWfSdAAGbm90aWZ5c3EAfgAMlYe1eXQAGmNyZWF0ZURhdGFTb3VyY2UkZGVmYXVsdCQxc3EAfgAMemvazXQACnRyYW5zYWN0b3JzcQB+AAwBrfo2dAAEd2FpdHNxAH4ADImVx7d0AA5jb3B5JGRlZmF1bHQkMnNxAH4ADLAQuER0AA0kYXNJbnN0YW5jZU9mc3EAfgAMX+18THQACGhvc3RuYW1lc3EAfgAM3GtF9HQADmNvcHkkZGVmYXVsdCQ1c3EAfgAMOcvnSXQADHByb2R1Y3RBcml0eXNxAH4ADJhpzVJ0AAZlcXVhbHNzcQB+AAyXt+3FdAAIdXNlcm5hbWVzcQB+AAw/7BCbdAASUG9zdGdyZXNQcm9wZXJ0aWVzc3EAfgAMkpOuMXQABmRiTmFtZXNxAH4ADF3H+k50ABBjcmVhdGVEYXRhU291cmNlc3EAfgAMHYIrrHQAGmNyZWF0ZURhdGFTb3VyY2UkZGVmYXVsdCQ2c3EAfgAMiAfxaHQADGFzSW5zdGFuY2VPZnNxAH4ADOrGlrJ0AARob3N0c3EAfgAMWIZXgnQAGmNyZWF0ZURhdGFTb3VyY2UkZGVmYXVsdCQ1c3EAfgAMF+PKFnQADHN5bmNocm9uaXplZHNxAH4ADOvoaYN0AAFBc3EAfgAMk4eX83QADSRpc0luc3RhbmNlT2ZzcQB+AAwMl9WbdAAIY2FuRXF1YWxzcQB+AAwtjzQVdAAOY29weSRkZWZhdWx0JDRzcQB+AAyQMMNkdAANcHJvZHVjdFByZWZpeHNxAH4ADM5F+ud0AAJkc3NxAH4ADCWcwY50AAlub3RpZnlBbGxzcQB+AAybDZdydAAPcG9zdGdyZXNTZXJ2aWNlc3EAfgAMKw7klnQADGlzSW5zdGFuY2VPZnNxAH4ADMJRnfB0AAJKUnNxAH4ADH5m5k10AAY8aW5pdD5zcQB+AAxEemlRdAAEcG9ydHNxAH4ADJsa2Al0AAI9PXNxAH4ADOXxAXp0AAVjbG9uZXNxAH4ADCITdUV0AA5nZXRQb3N0Z3Jlc1VSSXNxAH4ADPdMYpp0ABpjcmVhdGVEYXRhU291cmNlJGRlZmF1bHQkNHNxAH4ADP/g8+l0ABNwb3N0Z3Jlc1BhcmFtTWFwcGVyc3EAfgAMyV2k8nQADmNvcHkkZGVmYXVsdCQzc3EAfgAMxfKlQHQABGNvcHlzcQB+AAzUNz1wdAAaY3JlYXRlRGF0YVNvdXJjZSRkZWZhdWx0JDJzcQB+AAy1vTBbdAAIdG9TdHJpbmdzcQB+AAxFIFCldAAQY3JlYXRlVHJhbnNhY3RvcnNxAH4ADPwm6zp0AAIhPXNxAH4ADFdr2g10AAhnZXRDbGFzc3NxAH4ADH1s4iN0AA5jb3B5JGRlZmF1bHQkMXNxAH4ADI0D//V0AAJuZXNxAH4ADAshQj90ABpjcmVhdGVEYXRhU291cmNlJGRlZmF1bHQkM3NxAH4ADGFxLF50AAxqZGJjVGVtcGxhdGVzcQB+AAzKG3/HdAAEdXNlcnNxAH4ADHdKoip0AAJlcXNxAH4ADOVzRG90AA9wcm9kdWN0SXRlcmF0b3JzcQB+AAyJyCIEdAACIyNzcQB+AAyV99TidAAIZmluYWxpemVzcQB+AAyuR4UhdAAOcHJvZHVjdEVsZW1lbnRzcQB+AAz1EiJ9dAAIaGFzaENvZGVzcQB+AAxPVxqRdAAIcGFzc3dvcmRzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAACc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgCHeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAeY29tLmV4YW1wbGUuUG9zdGdyZXNQcm9wZXJ0aWVzdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAABdAAMc2NhbGEubmF0aXZlc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHABc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHBzcQB+AKABc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AIdMAAlpbmhlcml0ZWRxAH4Ah0wAB3BhcmVudHNxAH4Ah3hxAH4Ap3NxAH4AoAF1cQB+AIIAAAAAcHNxAH4AoAF1cQB+AIIAAAAAcHNxAH4AoAF1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAABnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AKZ0AAxTZXJpYWxpemFibGVzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AKZzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AMBzcQB+ALNxAH4AtnNxAH4At3NxAH4AunVxAH4AvQAAAANzcQB+AL90AARqYXZhc3EAfgC/dAACaW9xAH4AxHNxAH4As3QAB1Byb2R1Y3RxAH4AuXNxAH4As3QABkVxdWFsc3EAfgC5c3EAfgCzdAAGT2JqZWN0c3EAfgC3c3EAfgC6dXEAfgC9AAAAA3NxAH4Av3EAfgDKc3EAfgC/dAAEbGFuZ3EAfgDEc3EAfgCzdAADQW55cQB+ALlwcHNxAH4AhHEAfgCRdXEAfgCSAAAAAHNxAH4AlAB0ABtjb20uZXhhbXBsZS5EYXRhYmFzZVNlcnZpY2V1cQB+AJcAAAAAfnEAfgCZdAAGTW9kdWxldXEAfgCdAAAAAXQADHNjYWxhLm5hdGl2ZXNxAH4AoAFxAH4AqHBzcQB+AKABc3EAfgCqc3EAfgCgAXVxAH4AggAAAABwc3EAfgCgAXVxAH4AggAAAABwc3EAfgCgAXVxAH4AsQAAAAJzcQB+ALNxAH4A0nNxAH4At3NxAH4AunVxAH4AvQAAAANzcQB+AL9xAH4AynNxAH4Av3EAfgDYcQB+AMRzcQB+ALNxAH4A2nNxAH4At3NxAH4AunVxAH4AvQAAAAJzcQB+AL9xAH4AwnEAfgDEcHB1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAnNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAtjb20uZXhhbXBsZXNxAH4A+nQAA2NvbXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABcTbD5r51cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABEL1VzZXJzL2kzMzUzNTIvSWRlYVByb2plY3RzL2NvdmlkMTktc2NhbGEtYmFja2VuZC9idWlsZC9jbGFzc2VzL21haW50AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABR1V/e19szpUBgILr6KJ16xmIA/zA==
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDtD4oVAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAABc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwuvNS5HQAEGV4ZWN1dGlvbkNvbnRleHR1cQB+AAkAAAAkc3EAfgALA/zMfnQABm5vdGlmeXNxAH4AC8YVaFZ0AAlyb3V0ZVJvb3RzcQB+AAv9Vyu8dAAEd2FpdHNxAH4ACxCTLoJ0AANjdHhzcQB+AAu7fBHEdAAMSHR0cFZlcnRpY2xlc3EAfgALNzgpJHQADSRhc0luc3RhbmNlT2ZzcQB+AAvp1apMdAAGc2VydmVyc3EAfgAL0EUidHQABmVxdWFsc3NxAH4ACxZUcJx0AAxhc0luc3RhbmNlT2ZzcQB+AAu4kZPbdAAMc3luY2hyb25pemVkc3EAfgALRKW4iXQADSRpc0luc3RhbmNlT2ZzcQB+AAsp9xR3dAALcHJvY2Vzc0FyZ3NzcQB+AAveHSu7dAAMZGVwbG95bWVudElEc3EAfgALOICvnHQABmNvbmZpZ3NxAH4AC12H+RB0AARzdG9wc3EAfgALdA+PanQACW5vdGlmeUFsbHNxAH4AC8JQZ6F0AAxpc0luc3RhbmNlT2ZzcQB+AAvr6bQ9dAAGYXNKYXZhc3EAfgALeFP2EnQAEURFRkFVTFRfSFRUUF9IT1NUc3EAfgALKalPtHQABXZlcnR4c3EAfgALeCn4kXQABjxpbml0PnNxAH4AC8Al84N0AAI9PXNxAH4AC6DHOlh0AAVjbG9uZXNxAH4AC9kxP990AAh0b1N0cmluZ3NxAH4AC4LUjrd0AAIhPXNxAH4ACzqly7B0AAhnZXRDbGFzc3NxAH4AC1cm4uF0AAlIVFRQX0hPU1RzcQB+AAut9LlZdAAFc3RhcnRzcQB+AAuAgHvjdAACbmVzcQB+AAtdyN13dAAEaW5pdHNxAH4AC1Jh0LR0ABFERUZBVUxUX0hUVFBfUE9SVHNxAH4AC33B+IR0AAJlcXNxAH4ACxrM2nR0AAIjI3NxAH4AC3xS4710AAhmaW5hbGl6ZXNxAH4AC6bsPV90AAhoYXNoQ29kZXNxAH4AC1B6i190AAlIVFRQX1BPUlRzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAACc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBheHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADHhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAYY29tLmV4YW1wbGUuSHR0cFZlcnRpY2xldXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAXNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBwc3EAfgB5AXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBhTAAJaW5oZXJpdGVkcQB+AGFMAAdwYXJlbnRzcQB+AGF4cQB+AIBzcQB+AHkBdXEAfgBcAAAAAHBzcQB+AHkBdXEAfgBcAAAAAHBzcQB+AHkBdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AAxMAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgB/dAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgB/c3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADHhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgCYdAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCZc3EAfgCMdAADQW55c3EAfgCQc3EAfgCTdXEAfgCWAAAAAnNxAH4AmHQABXNjYWxhcQB+AJ9wcHNxAH4AXnEAfgBrdXEAfgBsAAAAAHNxAH4AbgB0ABhjb20uZXhhbXBsZS5IdHRwVmVydGljbGV1cQB+AHEAAAAAfnEAfgBzdAAIQ2xhc3NEZWZ1cQB+AHcAAAAAc3EAfgB5AXEAfgCBcHNxAH4AeQFzcQB+AINzcQB+AHkBdXEAfgBcAAAAAHBzcQB+AHkBdXEAfgBcAAAAAHBzcQB+AHkBdXEAfgCKAAAAA3NxAH4AjHQADVNjYWxhVmVydGljbGVzcQB+AJBzcQB+AJN1cQB+AJYAAAAFc3EAfgCYdAACaW9zcQB+AJh0AAV2ZXJ0eHNxAH4AmHEAfgCdc3EAfgCYcQB+AKZxAH4An3NxAH4AjHEAfgCPc3EAfgCQc3EAfgCTdXEAfgCWAAAAA3NxAH4AmHEAfgCbc3EAfgCYcQB+AJ1xAH4An3NxAH4AjHEAfgChc3EAfgCQc3EAfgCTdXEAfgCWAAAAAnNxAH4AmHEAfgCmcQB+AJ9wcHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAACc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AAx4cHQAC2NvbS5leGFtcGxlc3EAfgDQdAADY29tc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFxNUfL9HVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADEwAD3NvdXJjZURpcmVjdG9yeXEAfgAMeHB0AEQvVXNlcnMvaTMzNTM1Mi9JZGVhUHJvamVjdHMvY292aWQxOS1zY2FsYS1iYWNrZW5kL2J1aWxkL2NsYXNzZXMvbWFpbnQAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFI5RQZ5ZM1GBFbyz/lIqg919N617
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBKaoCDAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAABc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwuvNS5HQAEGV4ZWN1dGlvbkNvbnRleHR1cQB+AAkAAAAvc3EAfgAL9RT0pnQABm5vdGlmeXNxAH4AC4jaNWN0AAlyb3V0ZVJvb3RzcQB+AAvT9w6ldAAEdGVzdHNxAH4ACyFjJhx0AAR3YWl0c3EAfgALEJMugnQAA2N0eHNxAH4AC7t8EcR0AAxIdHRwVmVydGljbGVzcQB+AAsFTj7MdAANJGFzSW5zdGFuY2VPZnNxAH4AC+nVqkx0AAZzZXJ2ZXJzcQB+AAs9P6STdAAMcHJvZHVjdEFyaXR5c3EAfgALswhDa3QABmVxdWFsc3NxAH4AC9JJMEZ0AAROQU1Fc3EAfgAL2jrrYXQADGFzSW5zdGFuY2VPZnNxAH4AC/ROEa50AAxzeW5jaHJvbml6ZWRzcQB+AAsuInJ/dAABQXNxAH4AC5Ph6vN0AA0kaXNJbnN0YW5jZU9mc3EAfgALKfcUd3QAC3Byb2Nlc3NBcmdzc3EAfgAL3h0ru3QADGRlcGxveW1lbnRJRHNxAH4AC0RtKbR0AAhjYW5FcXVhbHNxAH4ACziAr5x0AAZjb25maWdzcQB+AAvJgN88dAANcHJvZHVjdFByZWZpeHNxAH4AC12H+RB0AARzdG9wc3EAfgALwFubkXQACW5vdGlmeUFsbHNxAH4AC293c3N0AAxpc0luc3RhbmNlT2ZzcQB+AAvr6bQ9dAAGYXNKYXZhc3EAfgALeFP2EnQAEURFRkFVTFRfSFRUUF9IT1NUc3EAfgALKalPtHQABXZlcnR4c3EAfgALoNgBmHQABjxpbml0PnNxAH4AC+9Opcl0AAdnZXREYXRhc3EAfgALrx783HQAAj09c3EAfgALUGt5EHQABWNsb25lc3EAfgALMu6fknQABGNvcHlzcQB+AAsJNVx3dAAIdG9TdHJpbmdzcQB+AAuAq4vTdAACIT1zcQB+AAsiOOXCdAAIZ2V0Q2xhc3NzcQB+AAt4dMx+dAAOY29weSRkZWZhdWx0JDFzcQB+AAtXJuLhdAAJSFRUUF9IT1NUc3EAfgALrfS5WXQABXN0YXJ0c3EAfgALLnJHq3QAAm5lc3EAfgALXcjdd3QABGluaXRzcQB+AAtSYdC0dAARREVGQVVMVF9IVFRQX1BPUlRzcQB+AAs0rMdgdAACZXFzcQB+AAvG8klqdAAPcHJvZHVjdEl0ZXJhdG9yc3EAfgALGvw8NnQAAiMjc3EAfgALrI3aRnQACGZpbmFsaXplc3EAfgALtydNQHQADnByb2R1Y3RFbGVtZW50c3EAfgALEz7cT3QACGhhc2hDb2Rlc3EAfgALUHqLX3QACUhUVFBfUE9SVHNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAANzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AHd4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgAMeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0ABBjb20uZXhhbXBsZS50ZXN0dXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAABdAAMc2NhbGEubmF0aXZlc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHAAcHNyACB4c2J0aS5TYWZlTGF6eSQkYW5vbmZ1biRzdHJpY3QkMQAAAAAAAAAAAgABTAAHdmFsdWUkMXEAfgCReHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgCQAHBzcQB+AJVzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4Ad0wACWluaGVyaXRlZHEAfgB3TAAHcGFyZW50c3EAfgB3eHEAfgCZc3EAfgCQAHBzcQB+AJV1cQB+AHIAAAAAc3EAfgCQAHBzcQB+AJV1cQB+AHIAAAAAc3EAfgCQAHBzcQB+AJV1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAABnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADEwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AJh0AAxTZXJpYWxpemFibGVzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AJhzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgAMeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+ALZzcQB+AKlxAH4ArHNxAH4ArXNxAH4AsHVxAH4AswAAAANzcQB+ALV0AARqYXZhc3EAfgC1dAACaW9xAH4AunNxAH4AqXQAB1Byb2R1Y3RxAH4Ar3NxAH4AqXQABkVxdWFsc3EAfgCvc3EAfgCpdAAGT2JqZWN0c3EAfgCtc3EAfgCwdXEAfgCzAAAAA3NxAH4AtXEAfgDAc3EAfgC1dAAEbGFuZ3EAfgC6c3EAfgCpdAADQW55cQB+AK9zcQB+AHRxAH4AgXVxAH4AggAAAABzcQB+AIQAdAAYY29tLmV4YW1wbGUuSHR0cFZlcnRpY2xldXEAfgCHAAAAAH5xAH4AiXQABk1vZHVsZXVxAH4AjQAAAAF0AAxzY2FsYS5uYXRpdmVzcQB+AJAAcHNxAH4AlXEAfgCac3EAfgCQAHBzcQB+AJVzcQB+AJ1zcQB+AJAAcHNxAH4AlXVxAH4AcgAAAABzcQB+AJAAcHNxAH4AlXVxAH4AcgAAAABzcQB+AJAAcHNxAH4AlXVxAH4ApwAAAAJzcQB+AKlxAH4AyHNxAH4ArXNxAH4AsHVxAH4AswAAAANzcQB+ALVxAH4AwHNxAH4AtXEAfgDOcQB+ALpzcQB+AKlxAH4A0HNxAH4ArXNxAH4AsHVxAH4AswAAAAJzcQB+ALVxAH4AuHEAfgC6c3EAfgB0cQB+AIF1cQB+AIIAAAAAc3EAfgCEAHQAGGNvbS5leGFtcGxlLkh0dHBWZXJ0aWNsZXVxAH4AhwAAAABxAH4Ai3VxAH4AjQAAAAF0AAxzY2FsYS5uYXRpdmVzcQB+AJAAcHNxAH4AlXEAfgCac3EAfgCQAHBzcQB+AJVzcQB+AJ1zcQB+AJAAcHNxAH4AlXVxAH4AcgAAAABzcQB+AJAAcHNxAH4AlXVxAH4AcgAAAABzcQB+AJAAcHNxAH4AlXVxAH4ApwAAAANzcQB+AKl0AA1TY2FsYVZlcnRpY2xlc3EAfgCtc3EAfgCwdXEAfgCzAAAABXNxAH4AtXQAAmlvc3EAfgC1dAAFdmVydHhzcQB+ALVxAH4AznNxAH4AtXEAfgC4cQB+ALpzcQB+AKlxAH4AyHNxAH4ArXNxAH4AsHVxAH4AswAAAANzcQB+ALVxAH4AwHNxAH4AtXEAfgDOcQB+ALpzcQB+AKlxAH4A0HNxAH4ArXNxAH4AsHVxAH4AswAAAAJzcQB+ALVxAH4AuHEAfgC6dXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAJzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADHhwdAALY29tLmV4YW1wbGVzcQB+ASB0AANjb21zcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAXE3F9EFdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgAMTAAPc291cmNlRGlyZWN0b3J5cQB+AAx4cHQARC9Vc2Vycy9pMzM1MzUyL0lkZWFQcm9qZWN0cy9jb3ZpZDE5LXNjYWxhLWJhY2tlbmQvYnVpbGQvY2xhc3Nlcy9tYWludAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAURnEwGmXPIBgqGiR6OJG7nvq7H8M=
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/Starter.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHA36zmjAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAABc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwpT/nuHQAEGV4ZWN1dGlvbkNvbnRleHR1cQB+AAkAAAAec3EAfgALvncAWXQABm5vdGlmeXNxAH4AC9ZnnvF0AAR3YWl0c3EAfgALSL6SRnQAA2N0eHNxAH4AC4DSIQh0AA0kYXNJbnN0YW5jZU9mc3EAfgALxMDmxHQABmVxdWFsc3NxAH4ACzZZ92x0AAxhc0luc3RhbmNlT2ZzcQB+AAtE1Zh5dAAMc3luY2hyb25pemVkc3EAfgALKW2ryXQADSRpc0luc3RhbmNlT2ZzcQB+AAtkfec5dAALcHJvY2Vzc0FyZ3NzcQB+AAvESZ2mdAAMZGVwbG95bWVudElEc3EAfgALdn+Ak3QABmNvbmZpZ3NxAH4AC40k3qd0AARzdG9wc3EAfgALtHKD3HQACW5vdGlmeUFsbHNxAH4AC2iqucV0AAxpc0luc3RhbmNlT2ZzcQB+AAvZ3fnwdAAGYXNKYXZhc3EAfgALwicCcnQABXZlcnR4c3EAfgALzDlRzHQABjxpbml0PnNxAH4AC7PAa5V0AAI9PXNxAH4ACyCw1wt0AAVjbG9uZXNxAH4AC9QybmJ0AAdTdGFydGVyc3EAfgALsATWTnQACHRvU3RyaW5nc3EAfgALHXVN3nQAAiE9c3EAfgALj7WzPHQACGdldENsYXNzc3EAfgALs6Q593QABXN0YXJ0c3EAfgALnX+b+HQAAm5lc3EAfgALOFip3HQABGluaXRzcQB+AAtzIfYqdAACZXFzcQB+AAtH/EyodAACIyNzcQB+AAvWK11qdAAIZmluYWxpemVzcQB+AAsnAfiHdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBVeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADHhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAATY29tLmV4YW1wbGUuU3RhcnRlcnVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4Abnhwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AbQBwc3EAfgByc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AFVMAAlpbmhlcml0ZWRxAH4AVUwAB3BhcmVudHNxAH4AVXhxAH4AdnNxAH4AbQBwc3EAfgBydXEAfgBQAAAAAHNxAH4AbQBwc3EAfgBydXEAfgBQAAAAAHNxAH4AbQBwc3EAfgBydXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAANzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AAxMAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgB1dAANU2NhbGFWZXJ0aWNsZXNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AdXNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAABXNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AAx4cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAACaW9zcQB+AJJ0AAV2ZXJ0eHNxAH4AknQABGxhbmdzcQB+AJJ0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCTc3EAfgCGdAAGT2JqZWN0c3EAfgCKc3EAfgCNdXEAfgCQAAAAA3NxAH4AknQABGphdmFzcQB+AJJxAH4AmXEAfgCdc3EAfgCGdAADQW55c3EAfgCKc3EAfgCNdXEAfgCQAAAAAnNxAH4AknEAfgCbcQB+AJ11cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAnNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgAMeHB0AAtjb20uZXhhbXBsZXNxAH4ArnQAA2NvbXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABcTVF7Cd1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AAxMAA9zb3VyY2VEaXJlY3RvcnlxAH4ADHhwdABEL1VzZXJzL2kzMzUzNTIvSWRlYVByb2plY3RzL2NvdmlkMTktc2NhbGEtYmFja2VuZC9idWlsZC9jbGFzc2VzL21haW50AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABSsjSoRqSom4tq6c0yG4odBzTIqXg==
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHCnVEO7AHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAABc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwpT/nuHQAEGV4ZWN1dGlvbkNvbnRleHR1cQB+AAkAAAAec3EAfgAL5VoouXQABm5vdGlmeXNxAH4AC5Wm+WV0AAR3YWl0c3EAfgALSL6SRnQAA2N0eHNxAH4AC4DSIQh0AA0kYXNJbnN0YW5jZU9mc3EAfgALxMDmxHQABmVxdWFsc3NxAH4ACzZZ92x0AAxhc0luc3RhbmNlT2ZzcQB+AAtE1Zh5dAAMc3luY2hyb25pemVkc3EAfgALKW2ryXQADSRpc0luc3RhbmNlT2ZzcQB+AAtkfec5dAALcHJvY2Vzc0FyZ3NzcQB+AAvESZ2mdAAMZGVwbG95bWVudElEc3EAfgALdn+Ak3QABmNvbmZpZ3NxAH4AC40k3qd0AARzdG9wc3EAfgAL0yVCxnQACW5vdGlmeUFsbHNxAH4AC2iqucV0AAxpc0luc3RhbmNlT2ZzcQB+AAvZ3fnwdAAGYXNKYXZhc3EAfgALwicCcnQABXZlcnR4c3EAfgALzDlRzHQABjxpbml0PnNxAH4AC7PAa5V0AAI9PXNxAH4ACxOU2rF0AAVjbG9uZXNxAH4AC9QybmJ0AAdTdGFydGVyc3EAfgALsATWTnQACHRvU3RyaW5nc3EAfgALHXVN3nQAAiE9c3EAfgAL9j1R4HQACGdldENsYXNzc3EAfgALs6Q593QABXN0YXJ0c3EAfgALnX+b+HQAAm5lc3EAfgALOFip3HQABGluaXRzcQB+AAtzIfYqdAACZXFzcQB+AAtH/EyodAACIyNzcQB+AAvWK11qdAAIZmluYWxpemVzcQB+AAvq5M86dAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBVeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADHhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAATY29tLmV4YW1wbGUuU3RhcnRlcnVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAXQADHNjYWxhLm5hdGl2ZXNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4Ab3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AbgBwc3EAfgBzc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AFVMAAlpbmhlcml0ZWRxAH4AVUwAB3BhcmVudHNxAH4AVXhxAH4Ad3NxAH4AbgBwc3EAfgBzdXEAfgBQAAAAAHNxAH4AbgBwc3EAfgBzdXEAfgBQAAAAAHNxAH4AbgBwc3EAfgBzdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAANzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AAxMAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgB2dAANU2NhbGFWZXJ0aWNsZXNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AdnNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAABXNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AAx4cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAACaW9zcQB+AJN0AAV2ZXJ0eHNxAH4Ak3QABGxhbmdzcQB+AJN0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCUc3EAfgCHdAAGT2JqZWN0c3EAfgCLc3EAfgCOdXEAfgCRAAAAA3NxAH4Ak3QABGphdmFzcQB+AJNxAH4AmnEAfgCec3EAfgCHdAADQW55c3EAfgCLc3EAfgCOdXEAfgCRAAAAAnNxAH4Ak3EAfgCccQB+AJ51cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAnNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgAMeHB0AAtjb20uZXhhbXBsZXNxAH4Ar3QAA2NvbXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABcTavTid1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AAxMAA9zb3VyY2VEaXJlY3RvcnlxAH4ADHhwdABEL1VzZXJzL2kzMzUzNTIvSWRlYVByb2plY3RzL2NvdmlkMTktc2NhbGEtYmFja2VuZC9idWlsZC9jbGFzc2VzL21haW50AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABSsjSoRqSom4tq6c0yG4odBzTIqXg==
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/EnvironmentUtils.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHB/f34/AHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAGHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cHK2R7F0AAZub3RpZnlzcQB+AAxxeqehdAADbmVvc3EAfgAMSIljbHQABHdhaXRzcQB+AAxrcduedAANJGFzSW5zdGFuY2VPZnNxAH4ADMoiuP10AAZlcXVhbHNzcQB+AAyC3SBUdAAMYXNJbnN0YW5jZU9mc3EAfgAMwVuHB3QADHN5bmNocm9uaXplZHNxAH4ADAkeolF0AAVsb2NhbHNxAH4ADEQL95R0AA0kaXNJbnN0YW5jZU9mc3EAfgAMYDLyH3QAEEVudmlyb25tZW50VXRpbHNzcQB+AAyAP36SdAAJbm90aWZ5QWxsc3EAfgAMSUzqPXQADGlzSW5zdGFuY2VPZnNxAH4ADKZQ1q90AAI9PXNxAH4ADBw9UXZ0AAVjbG9uZXNxAH4ADKsqJ9B0AAtlbnZpcm9ubWVudHNxAH4ADErOamh0AAh0b1N0cmluZ3NxAH4ADJJx+Nl0AAIhPXNxAH4ADMwKi5R0AAJjZnNxAH4ADKFrSrp0AAhnZXRDbGFzc3NxAH4ADMejsKd0AAJuZXNxAH4ADAoDCQl0AAJlcXNxAH4ADHAWtkF0AAIjI3NxAH4ADEReu/B0AAhmaW5hbGl6ZXNxAH4ADIEJ5Lt0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEd4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0ACJjb20uZXhhbXBsZS5yZXVzZS5FbnZpcm9ubWVudFV0aWxzdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAXQADHNjYWxhLm5hdGl2ZXNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4AYXhwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AYABwc3EAfgBlc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AEdMAAlpbmhlcml0ZWRxAH4AR0wAB3BhcmVudHNxAH4AR3hxAH4AaXNxAH4AYABwc3EAfgBldXEAfgBCAAAAAHNxAH4AYABwc3EAfgBldXEAfgBCAAAAAHNxAH4AYABwc3EAfgBldXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBodAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBoc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgCFdAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCGc3EAfgB5dAADQW55c3EAfgB9c3EAfgCAdXEAfgCDAAAAAnNxAH4AhXQABXNjYWxhcQB+AIx1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAA3NyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0ABFjb20uZXhhbXBsZS5yZXVzZXNxAH4AlnQAC2NvbS5leGFtcGxlc3EAfgCWdAADY29tc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFxNq9OJ3VyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AEQvVXNlcnMvaTMzNTM1Mi9JZGVhUHJvamVjdHMvY292aWQxOS1zY2FsYS1iYWNrZW5kL2J1aWxkL2NsYXNzZXMvbWFpbnQAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFDZKrpuzrNvpFJlHJPflt8EKnSJR
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/JsonDataFormatter.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHCDH7H6AHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAF3NyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cCDvahd0AAZub3RpZnlzcQB+AAzzGPHSdAAEd2FpdHNxAH4ADCK1SNx0AA0kYXNJbnN0YW5jZU9mc3EAfgAMqKtyC3QAEUpzb25EYXRhRm9ybWF0dGVyc3EAfgAMXJA1kHQABmVxdWFsc3NxAH4ADDcMJdR0AAxhc0luc3RhbmNlT2ZzcQB+AAxLwtAhdAAMc3luY2hyb25pemVkc3EAfgAMwjM+iHQADSRpc0luc3RhbmNlT2ZzcQB+AAxgBO+IdAALZGVzZXJpYWxpemVzcQB+AAwoW6hXdAAJbm90aWZ5QWxsc3EAfgAMYDBpfnQADGlzSW5zdGFuY2VPZnNxAH4ADJc5dsN0AAI9PXNxAH4ADPdI7XR0AAVjbG9uZXNxAH4ADMLljUJ0AAxvYmplY3RNYXBwZXJzcQB+AAxakbHLdAAIdG9TdHJpbmdzcQB+AAwE8dpwdAACIT1zcQB+AAzRSJQGdAAIZ2V0Q2xhc3NzcQB+AAyNS51YdAACbmVzcQB+AAyAdkN6dAAJc2VyaWFsaXplc3EAfgAMP2Uy5XQAAmVxc3EAfgAMRw6f9HQAAiMjc3EAfgAMt1qIjnQACGZpbmFsaXplc3EAfgAM7M+rlHQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4ARXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQAI2NvbS5leGFtcGxlLnJldXNlLkpzb25EYXRhRm9ybWF0dGVydXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAXQADHNjYWxhLm5hdGl2ZXNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4AX3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AXgBwc3EAfgBjc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AEVMAAlpbmhlcml0ZWRxAH4ARUwAB3BhcmVudHNxAH4ARXhxAH4AZ3NxAH4AXgBwc3EAfgBjdXEAfgBAAAAAAHNxAH4AXgBwc3EAfgBjdXEAfgBAAAAAAHNxAH4AXgBwc3EAfgBjdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBmdAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBmc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgCDdAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCEc3EAfgB3dAADQW55c3EAfgB7c3EAfgB+dXEAfgCBAAAAAnNxAH4Ag3QABXNjYWxhcQB+AIp1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAA3NyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0ABFjb20uZXhhbXBsZS5yZXVzZXNxAH4AlHQAC2NvbS5leGFtcGxlc3EAfgCUdAADY29tc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFxNq9OJ3VyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AEQvVXNlcnMvaTMzNTM1Mi9JZGVhUHJvamVjdHMvY292aWQxOS1zY2FsYS1iYWNrZW5kL2J1aWxkL2NsYXNzZXMvbWFpbnQAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFD+j5eY76FL8wl4cjc00AfrzqMeV
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHA7votKAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAQHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cPpqorJ0ABBWQ0FQX0FQUExJQ0FUSU9Oc3EAfgAMTNRssHQABm5vdGlmeXNxAH4ADIhxQc50AAdDQ19IT1NUc3EAfgAM2y8eLHQABmdldFVQU3NxAH4ADFpPwgZ0AAZBQ19VQUFzcQB+AAyJJbB6dAAEbmFtZXNxAH4ADJqRAuV0AAtDUkVERU5USUFMU3NxAH4ADOeqg0Z0ABBnZXRWY2FwVmFyaWFibGVzc3EAfgAMqpk5GHQABHdhaXRzcQB+AAyDsu5hdAAESE9TVHNxAH4ADLpsBF50AAtkZWZhdWx0VW5pdHNxAH4ADKYs0kN0AA5jb3B5JGRlZmF1bHQkMnNxAH4ADD9twx50AA0kYXNJbnN0YW5jZU9mc3EAfgAMppi3mHQAEmdldEFjVWFhQ3JlZGVudGlhbHNxAH4ADEJE/RJ0AAtTeXN0ZW1VdGlsc3NxAH4ADLgos1h0AAxDQ19DTElFTlRfSURzcQB+AAw1IKRDdAAPZ2V0VmNhcFNlcnZpY2Vzc3EAfgAMtxODq3QAGmdldEVudlByb3BlcnR5RnJvbVNlcnZpY2Vzc3EAfgAMwAoWPnQADHByb2R1Y3RBcml0eXNxAH4ADBfdpcZ0AAN1cmxzcQB+AAzYCOv7dAAGZXF1YWxzc3EAfgAMInoE5HQADUFDX0JST0tFUl9VQUFzcQB+AAzBpwRjdAAETkFNRXNxAH4ADOZOx6R0AAxhc0luc3RhbmNlT2ZzcQB+AAxZQValdAAMc3luY2hyb25pemVkc3EAfgAMSbBjsXQADSRpc0luc3RhbmNlT2ZzcQB+AAz2IiKKdAALRU5WSVJPTk1FTlRzcQB+AAycrzngdAAHQUNfSE9TVHNxAH4ADPu4yA10AA5nZXRFbnZQcm9wZXJ0eXNxAH4ADA4z9tB0AAhjYW5FcXVhbHNxAH4ADG2B/w90AA9kZWZhdWx0RHVyYXRpb25zcQB+AAzjgNPydAAQQ0NfQ0xJRU5UX1NFQ1JFVHNxAH4ADLYdErZ0AA1wcm9kdWN0UHJlZml4c3EAfgAMVGpDnXQACW5vdGlmeUFsbHNxAH4ADM9NYRp0AAxpc0luc3RhbmNlT2ZzcQB+AAyZcvb7dAATZ2V0VmNhcEFwcGxpY2F0aW9uc3NxAH4ADH0KL0x0ABBDYWNoZUNvbmZpZ1V0aWxzc3EAfgAMCzp+cnQABjxpbml0PnNxAH4ADAA8G990AAVYU1VBQXNxAH4ADHNwjnl0AAI9PXNxAH4ADM2AmH90AAVjbG9uZXNxAH4ADEzh0fZ0AAtnZXRUaW1lVW5pdHNxAH4ADJAqMt90AA9nZXREZXN0aW5hdGlvbnNzcQB+AAyWre99dAAIZW5kcG9pbnRzcQB+AAwUNrTIdAAEY29weXNxAH4ADG9fafF0AAtkZWZhdWx0U2l6ZXNxAH4ADJG3q650AAxERVNUSU5BVElPTlNzcQB+AAyobrbldAAIdG9TdHJpbmdzcQB+AAzjxjCYdAANVkNBUF9TRVJWSUNFU3NxAH4ADMnu6V10AAIhPXNxAH4ADLI/XA10AAhnZXRDbGFzc3NxAH4ADKeMuRR0AA5jb3B5JGRlZmF1bHQkMXNxAH4ADFsYRxR0AAtEZXN0aW5hdGlvbnNxAH4ADC+kugh0AAJuZXNxAH4ADL0miv50AB5nZXRFbnZQcm9wZXJ0eUZyb21BcHBsaWNhdGlvbnNzcQB+AAxAgBk3dAAPZ2V0VGltZUR1cmF0aW9uc3EAfgAMszzb5XQADVVTRVJfUFJPVklERURzcQB+AAySWhszdAACZXFzcQB+AAzxEocDdAAPcHJvZHVjdEl0ZXJhdG9yc3EAfgAMWzkAhHQACWdldEFjSG9zdHNxAH4ADNxOlm50AAIjI3NxAH4ADDtorkR0AAhmaW5hbGl6ZXNxAH4ADO8ayyt0AA5wcm9kdWN0RWxlbWVudHNxAH4ADJRfpqx0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAANzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AJd4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAR0AB1jb20uZXhhbXBsZS5yZXVzZS5EZXN0aW5hdGlvbnVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAXQADHNjYWxhLm5hdGl2ZXNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAXNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBwc3EAfgCwAXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgCXTAAJaW5oZXJpdGVkcQB+AJdMAAdwYXJlbnRzcQB+AJd4cQB+ALdzcQB+ALABdXEAfgCSAAAAAHBzcQB+ALABdXEAfgCSAAAAAHBzcQB+ALABdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAZzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgC2dAAMU2VyaWFsaXphYmxlc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgC2c3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgDQc3EAfgDDcQB+AMZzcQB+AMdzcQB+AMp1cQB+AM0AAAADc3EAfgDPdAAEamF2YXNxAH4Az3QAAmlvcQB+ANRzcQB+AMN0AAdQcm9kdWN0cQB+AMlzcQB+AMN0AAZFcXVhbHNxAH4AyXNxAH4Aw3QABk9iamVjdHNxAH4Ax3NxAH4AynVxAH4AzQAAAANzcQB+AM9xAH4A2nNxAH4Az3QABGxhbmdxAH4A1HNxAH4Aw3QAA0FueXEAfgDJcHBzcQB+AJRxAH4AoXVxAH4AogAAAABzcQB+AKQAdAAdY29tLmV4YW1wbGUucmV1c2UuU3lzdGVtVXRpbHN1cQB+AKcAAAAAfnEAfgCpdAAGTW9kdWxldXEAfgCtAAAAAXQADHNjYWxhLm5hdGl2ZXNxAH4AsAFxAH4AuHBzcQB+ALABc3EAfgC6c3EAfgCwAXVxAH4AkgAAAABwc3EAfgCwAXVxAH4AkgAAAABwc3EAfgCwAXVxAH4AwQAAAAJzcQB+AMNxAH4A4nNxAH4Ax3NxAH4AynVxAH4AzQAAAANzcQB+AM9xAH4A2nNxAH4Az3EAfgDocQB+ANRzcQB+AMNxAH4A6nNxAH4Ax3NxAH4AynVxAH4AzQAAAAJzcQB+AM9xAH4A0nEAfgDUcHBzcQB+AJRxAH4AoXVxAH4AogAAAABzcQB+AKQAdAAiY29tLmV4YW1wbGUucmV1c2UuQ2FjaGVDb25maWdVdGlsc3VxAH4ApwAAAABxAH4A8HVxAH4ArQAAAAF0AAxzY2FsYS5uYXRpdmVzcQB+ALABcQB+ALhwc3EAfgCwAXNxAH4AunNxAH4AsAF1cQB+AJIAAAAAcHNxAH4AsAF1cQB+AJIAAAAAcHNxAH4AsAF1cQB+AMEAAAACc3EAfgDDcQB+AOJzcQB+AMdzcQB+AMp1cQB+AM0AAAADc3EAfgDPcQB+ANpzcQB+AM9xAH4A6HEAfgDUc3EAfgDDcQB+AOpzcQB+AMdzcQB+AMp1cQB+AM0AAAACc3EAfgDPcQB+ANJxAH4A1HBwdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAANzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAARY29tLmV4YW1wbGUucmV1c2VzcQB+ASV0AAtjb20uZXhhbXBsZXNxAH4BJXQAA2NvbXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABcTayRO91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABEL1VzZXJzL2kzMzUzNTIvSWRlYVByb2plY3RzL2NvdmlkMTktc2NhbGEtYmFja2VuZC9idWlsZC9jbGFzc2VzL21haW50AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABRk0rKUmT23pUNESeNY5oWEJ++u6A==
 external apis:
 0 items
 source infos:
-2 items
+6 items
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/DatabaseService.scala -> 
+AAAAAAAAAAA=
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/HttpVerticle.scala -> 
 AAAAAAAAAAA=
 /Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/Starter.scala -> 
 AAAAAAAAAAA=
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/EnvironmentUtils.scala -> 
+AAAABAAAAQAAAAoAESAgICBjYXNlIGNmID0+IGNmAQAAALkBAAAACQEACSAgICAgICAgIAEAaS9Vc2Vycy9pMzM1MzUyL0lkZWFQcm9qZWN0cy9jb3ZpZDE5LXNjYWxhLWJhY2tlbmQvc3JjL21haW4vc2NhbGEvY29tL2V4YW1wbGUvcmV1c2UvRW52aXJvbm1lbnRVdGlscy5zY2FsYQEAaS9Vc2Vycy9pMzM1MzUyL0lkZWFQcm9qZWN0cy9jb3ZpZDE5LXNjYWxhLWJhY2tlbmQvc3JjL21haW4vc2NhbGEvY29tL2V4YW1wbGUvcmV1c2UvRW52aXJvbm1lbnRVdGlscy5zY2FsYQCrcGF0dGVybnMgYWZ0ZXIgYSB2YXJpYWJsZSBwYXR0ZXJuIGNhbm5vdCBtYXRjaCAoU0xTIDguMS4xKQpJZiB5b3UgaW50ZW5kZWQgdG8gbWF0Y2ggYWdhaW5zdCB2YWx1ZSBjZiBpbiBvYmplY3QgRW52aXJvbm1lbnRVdGlscywgeW91IG11c3QgdXNlIGJhY2t0aWNrcywgbGlrZTogY2FzZSBgY2ZgID0+AQAAAQAAAAsAEyAgICBjYXNlIG5lbyA9PiBuZW8BAAAA0gEAAAAQAQAQICAgICAgICAgICAgICAgIAEAaS9Vc2Vycy9pMzM1MzUyL0lkZWFQcm9qZWN0cy9jb3ZpZDE5LXNjYWxhLWJhY2tlbmQvc3JjL21haW4vc2NhbGEvY29tL2V4YW1wbGUvcmV1c2UvRW52aXJvbm1lbnRVdGlscy5zY2FsYQEAaS9Vc2Vycy9pMzM1MzUyL0lkZWFQcm9qZWN0cy9jb3ZpZDE5LXNjYWxhLWJhY2tlbmQvc3JjL21haW4vc2NhbGEvY29tL2V4YW1wbGUvcmV1c2UvRW52aXJvbm1lbnRVdGlscy5zY2FsYQCrdW5yZWFjaGFibGUgY29kZSBkdWUgdG8gdmFyaWFibGUgcGF0dGVybiAnY2YnIG9uIGxpbmUgMTAKSWYgeW91IGludGVuZGVkIHRvIG1hdGNoIGFnYWluc3QgdmFsdWUgbmVvIGluIG9iamVjdCBFbnZpcm9ubWVudFV0aWxzLCB5b3UgbXVzdCB1c2UgYmFja3RpY2tzLCBsaWtlOiBjYXNlIGBuZW9gID0+AQAAAQAAAAwAEyAgICBjYXNlIF8gPT4gbG9jYWwBAAAA5AEAAAAOAQAOICAgICAgICAgICAgICABAGkvVXNlcnMvaTMzNTM1Mi9JZGVhUHJvamVjdHMvY292aWQxOS1zY2FsYS1iYWNrZW5kL3NyYy9tYWluL3NjYWxhL2NvbS9leGFtcGxlL3JldXNlL0Vudmlyb25tZW50VXRpbHMuc2NhbGEBAGkvVXNlcnMvaTMzNTM1Mi9JZGVhUHJvamVjdHMvY292aWQxOS1zY2FsYS1iYWNrZW5kL3NyYy9tYWluL3NjYWxhL2NvbS9leGFtcGxlL3JldXNlL0Vudmlyb25tZW50VXRpbHMuc2NhbGEAOHVucmVhY2hhYmxlIGNvZGUgZHVlIHRvIHZhcmlhYmxlIHBhdHRlcm4gJ2NmJyBvbiBsaW5lIDEwAQAAAQAAAAsAEyAgICBjYXNlIG5lbyA9PiBuZW8BAAAA0gEAAAAQAQAQICAgICAgICAgICAgICAgIAEAaS9Vc2Vycy9pMzM1MzUyL0lkZWFQcm9qZWN0cy9jb3ZpZDE5LXNjYWxhLWJhY2tlbmQvc3JjL21haW4vc2NhbGEvY29tL2V4YW1wbGUvcmV1c2UvRW52aXJvbm1lbnRVdGlscy5zY2FsYQEAaS9Vc2Vycy9pMzM1MzUyL0lkZWFQcm9qZWN0cy9jb3ZpZDE5LXNjYWxhLWJhY2tlbmQvc3JjL21haW4vc2NhbGEvY29tL2V4YW1wbGUvcmV1c2UvRW52aXJvbm1lbnRVdGlscy5zY2FsYQAQdW5yZWFjaGFibGUgY29kZQEAAAAA
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/JsonDataFormatter.scala -> 
+AAAAAAAAAAA=
+/Users/i335352/IdeaProjects/covid19-scala-backend/src/main/scala/com/example/reuse/util.scala -> 
+AAAAAAAAAAA=
 compilations:
-2 items
+9 items
 0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABcTVF7Cd1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARC9Vc2Vycy9pMzM1MzUyL0lkZWFQcm9qZWN0cy9jb3ZpZDE5LXNjYWxhLWJhY2tlbmQvYnVpbGQvY2xhc3Nlcy9tYWludAABLw==
 1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABcTVHy/R1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARC9Vc2Vycy9pMzM1MzUyL0lkZWFQcm9qZWN0cy9jb3ZpZDE5LXNjYWxhLWJhY2tlbmQvYnVpbGQvY2xhc3Nlcy9tYWludAABLw==
+2 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABcTYJtk91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARC9Vc2Vycy9pMzM1MzUyL0lkZWFQcm9qZWN0cy9jb3ZpZDE5LXNjYWxhLWJhY2tlbmQvYnVpbGQvY2xhc3Nlcy9tYWludAABLw==
+3 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABcTavTid1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARC9Vc2Vycy9pMzM1MzUyL0lkZWFQcm9qZWN0cy9jb3ZpZDE5LXNjYWxhLWJhY2tlbmQvYnVpbGQvY2xhc3Nlcy9tYWludAABLw==
+4 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABcTawgCl1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARC9Vc2Vycy9pMzM1MzUyL0lkZWFQcm9qZWN0cy9jb3ZpZDE5LXNjYWxhLWJhY2tlbmQvYnVpbGQvY2xhc3Nlcy9tYWludAABLw==
+5 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABcTayRO91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARC9Vc2Vycy9pMzM1MzUyL0lkZWFQcm9qZWN0cy9jb3ZpZDE5LXNjYWxhLWJhY2tlbmQvYnVpbGQvY2xhc3Nlcy9tYWludAABLw==
+6 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABcTbD5r51cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARC9Vc2Vycy9pMzM1MzUyL0lkZWFQcm9qZWN0cy9jb3ZpZDE5LXNjYWxhLWJhY2tlbmQvYnVpbGQvY2xhc3Nlcy9tYWludAABLw==
+7 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABcTbJfkd1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARC9Vc2Vycy9pMzM1MzUyL0lkZWFQcm9qZWN0cy9jb3ZpZDE5LXNjYWxhLWJhY2tlbmQvYnVpbGQvY2xhc3Nlcy9tYWludAABLw==
+8 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABcTcX0QV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARC9Vc2Vycy9pMzM1MzUyL0lkZWFQcm9qZWN0cy9jb3ZpZDE5LXNjYWxhLWJhY2tlbmQvYnVpbGQvY2xhc3Nlcy9tYWludAABLw==

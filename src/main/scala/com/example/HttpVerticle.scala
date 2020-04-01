@@ -4,9 +4,14 @@ import io.vertx.core.http.HttpMethod
 import io.vertx.lang.scala.ScalaVerticle
 import io.vertx.scala.core.http.HttpServer
 import io.vertx.scala.ext.web.{Router, RoutingContext}
-
+import com.example.DatabaseService.JR
 import scala.concurrent.{Future, Promise}
 import scala.util.{Failure, Success}
+import doobie.implicits._
+import monix.eval.Task
+import monix.execution.Scheduler.Implicits.global
+
+case class test(NAME: String)
 
 object HttpVerticle {
 
@@ -22,8 +27,9 @@ class HttpVerticle extends ScalaVerticle {
   var server: HttpServer = _
 
   override final def start(): Future[Unit] = {
-    val p = Promise[Unit]()
+    implicit val jr = DatabaseService.transactor
 
+    val p = Promise[Unit]()
     val router = Router.router(vertx)
     router.route(HttpMethod.GET,"/testAPI").handler(routeRoot)
 
@@ -47,15 +53,21 @@ class HttpVerticle extends ScalaVerticle {
     p.future
   }
 
-  private def routeRoot(ctx: RoutingContext) = {
-    val currentThread = "Current thread " + Thread.currentThread().getId
-    ctx.response().end(currentThread)
-  }
+  private def routeRoot(ctx: RoutingContext)(implicit jr: JR) = {
+
+    val currentThread = "Current thread " + getData().runSyncUnsafe().toString()
+    ctx.response().end(currentThread)}
+
 
   override final def stop(): Future[Unit] = {
     for {
       _ <- server.closeFuture()
       _ <- vertx.undeployFuture(this.deploymentID)
     } yield ()
+  }
+
+  def getData()(implicit jr: JR): Task[List[test]] = {
+    val q = sql"select * from company".query[test].to[List]
+    jr.use(q.transact(_))
   }
 }

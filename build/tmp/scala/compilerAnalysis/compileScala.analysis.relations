@@ -1,19 +1,91 @@
 products:
+   src/main/scala/com/example/DatabaseService.scala -> build/classes/main/com/example/DatabaseService$.class
+   src/main/scala/com/example/DatabaseService.scala -> build/classes/main/com/example/DatabaseService.class
+   src/main/scala/com/example/DatabaseService.scala -> build/classes/main/com/example/PostgresProperties$.class
+   src/main/scala/com/example/DatabaseService.scala -> build/classes/main/com/example/PostgresProperties.class
+   src/main/scala/com/example/HttpVerticle.scala -> build/classes/main/com/example/HttpVerticle$$typecreator1$1.class
    src/main/scala/com/example/HttpVerticle.scala -> build/classes/main/com/example/HttpVerticle$.class
+   src/main/scala/com/example/HttpVerticle.scala -> build/classes/main/com/example/HttpVerticle$anon$macro$2$1.class
    src/main/scala/com/example/HttpVerticle.scala -> build/classes/main/com/example/HttpVerticle.class
+   src/main/scala/com/example/HttpVerticle.scala -> build/classes/main/com/example/test$.class
+   src/main/scala/com/example/HttpVerticle.scala -> build/classes/main/com/example/test.class
    src/main/scala/com/example/Starter.scala -> build/classes/main/com/example/Starter.class
+   src/main/scala/com/example/reuse/EnvironmentUtils.scala -> build/classes/main/com/example/reuse/EnvironmentUtils$.class
+   src/main/scala/com/example/reuse/EnvironmentUtils.scala -> build/classes/main/com/example/reuse/EnvironmentUtils.class
+   src/main/scala/com/example/reuse/JsonDataFormatter.scala -> build/classes/main/com/example/reuse/JsonDataFormatter$$anon$1.class
+   src/main/scala/com/example/reuse/JsonDataFormatter.scala -> build/classes/main/com/example/reuse/JsonDataFormatter$.class
+   src/main/scala/com/example/reuse/JsonDataFormatter.scala -> build/classes/main/com/example/reuse/JsonDataFormatter.class
+   src/main/scala/com/example/reuse/util.scala -> build/classes/main/com/example/reuse/CacheConfigUtils$.class
+   src/main/scala/com/example/reuse/util.scala -> build/classes/main/com/example/reuse/CacheConfigUtils.class
+   src/main/scala/com/example/reuse/util.scala -> build/classes/main/com/example/reuse/Destination$.class
+   src/main/scala/com/example/reuse/util.scala -> build/classes/main/com/example/reuse/Destination.class
+   src/main/scala/com/example/reuse/util.scala -> build/classes/main/com/example/reuse/SystemUtils$.class
+   src/main/scala/com/example/reuse/util.scala -> build/classes/main/com/example/reuse/SystemUtils.class
 binary dependencies:
+   src/main/scala/com/example/DatabaseService.scala -> /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/rt.jar
+   src/main/scala/com/example/DatabaseService.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/com.zaxxer/HikariCP/3.4.1/842894380a73b72c2ecd9e483403e4d5ef7d8b76/HikariCP-3.4.1.jar
+   src/main/scala/com/example/DatabaseService.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/io.monix/monix-eval_2.12/3.1.0/10c60aaa4c977719d1e4c805f0e1c78b98a8c589/monix-eval_2.12-3.1.0.jar
+   src/main/scala/com/example/DatabaseService.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/org.json/json/20190722/7bce7bacf0ab5e9f894d307a3de8b7f540064d5/json-20190722.jar
+   src/main/scala/com/example/DatabaseService.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/org.postgresql/postgresql/42.0.0/938ede0cdf862cc4eaba5023a86254783af1d261/postgresql-42.0.0.jar
+   src/main/scala/com/example/DatabaseService.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.10/3509860bc2e5b3da001ed45aca94ffbe5694dbda/scala-library-2.12.10.jar
+   src/main/scala/com/example/DatabaseService.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/4.3.7.RELEASE/305c8db0f9552948aec093528cd01393cc98a646/spring-jdbc-4.3.7.RELEASE.jar
+   src/main/scala/com/example/DatabaseService.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/org.tpolecat/doobie-core_2.12/0.8.6/b53cd8150341a5a01adf6a6bf577f76ced6c006d/doobie-core_2.12-0.8.6.jar
+   src/main/scala/com/example/DatabaseService.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/org.tpolecat/doobie-hikari_2.12/0.8.6/8901a2ea41337090d59f1c1ac4ff9ccb96008f6/doobie-hikari_2.12-0.8.6.jar
+   src/main/scala/com/example/DatabaseService.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/org.typelevel/cats-effect_2.12/2.0.0/6a6a5e151b784fc4a379d86f513fad14cfda73e0/cats-effect_2.12-2.0.0.jar
    src/main/scala/com/example/HttpVerticle.scala -> /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/rt.jar
+   src/main/scala/com/example/HttpVerticle.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/com.chuusai/shapeless_2.12/2.3.3/6041e2c4871650c556a9c6842e43c04ed462b11f/shapeless_2.12-2.3.3.jar
+   src/main/scala/com/example/HttpVerticle.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/com.lihaoyi/sourcecode_2.12/0.1.8/9abfcdfba524ddc584a8a347421a59f6a27fb128/sourcecode_2.12-0.1.8.jar
+   src/main/scala/com/example/HttpVerticle.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/io.monix/monix-eval_2.12/3.1.0/10c60aaa4c977719d1e4c805f0e1c78b98a8c589/monix-eval_2.12-3.1.0.jar
+   src/main/scala/com/example/HttpVerticle.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/io.monix/monix-execution_2.12/3.1.0/6e2ac98be41b079fcc7292c8dea0e8c0914a9542/monix-execution_2.12-3.1.0.jar
    src/main/scala/com/example/HttpVerticle.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-core/3.4.0.Beta1/989af8d2d3978cf20a8ff76a57b77d732bba20c7/vertx-core-3.4.0.Beta1.jar
    src/main/scala/com/example/HttpVerticle.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-lang-scala_2.12/3.4.0.Beta1/b4f4290fe8fac2091df2118c5068e2301f38bb28/vertx-lang-scala_2.12-3.4.0.Beta1.jar
    src/main/scala/com/example/HttpVerticle.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-web-scala_2.12/3.4.0.Beta1/9a965fb9b7530ce17031e1391be790fa58feea27/vertx-web-scala_2.12-3.4.0.Beta1.jar
-   src/main/scala/com/example/HttpVerticle.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.1/dd235d04037dc6f4b6090257872dd35359a563ce/scala-library-2.12.1.jar
+   src/main/scala/com/example/HttpVerticle.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.10/3509860bc2e5b3da001ed45aca94ffbe5694dbda/scala-library-2.12.10.jar
+   src/main/scala/com/example/HttpVerticle.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.12.10/14cb7beb516cd8e07716133668c427792122c926/scala-reflect-2.12.10.jar
+   src/main/scala/com/example/HttpVerticle.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/org.tpolecat/doobie-core_2.12/0.8.6/b53cd8150341a5a01adf6a6bf577f76ced6c006d/doobie-core_2.12-0.8.6.jar
+   src/main/scala/com/example/HttpVerticle.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/org.tpolecat/doobie-hikari_2.12/0.8.6/8901a2ea41337090d59f1c1ac4ff9ccb96008f6/doobie-hikari_2.12-0.8.6.jar
+   src/main/scala/com/example/HttpVerticle.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/org.typelevel/cats-effect_2.12/2.0.0/6a6a5e151b784fc4a379d86f513fad14cfda73e0/cats-effect_2.12-2.0.0.jar
+   src/main/scala/com/example/HttpVerticle.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/org.typelevel/cats-free_2.12/2.0.0/5716d6c9a1b1698f0ac7b6594543702422230866/cats-free_2.12-2.0.0.jar
    src/main/scala/com/example/Starter.scala -> /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/rt.jar
    src/main/scala/com/example/Starter.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-lang-scala_2.12/3.4.0.Beta1/b4f4290fe8fac2091df2118c5068e2301f38bb28/vertx-lang-scala_2.12-3.4.0.Beta1.jar
-   src/main/scala/com/example/Starter.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.1/dd235d04037dc6f4b6090257872dd35359a563ce/scala-library-2.12.1.jar
+   src/main/scala/com/example/Starter.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.10/3509860bc2e5b3da001ed45aca94ffbe5694dbda/scala-library-2.12.10.jar
+   src/main/scala/com/example/reuse/EnvironmentUtils.scala -> /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/rt.jar
+   src/main/scala/com/example/reuse/EnvironmentUtils.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.10/3509860bc2e5b3da001ed45aca94ffbe5694dbda/scala-library-2.12.10.jar
+   src/main/scala/com/example/reuse/JsonDataFormatter.scala -> /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/rt.jar
+   src/main/scala/com/example/reuse/JsonDataFormatter.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.10.0/1127c9cf62f2bb3121a3a2a0a1351d251a602117/jackson-databind-2.10.0.jar
+   src/main/scala/com/example/reuse/JsonDataFormatter.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.9.7/cbd919f1ce67533e07b98dd493247e8dbabc26b2/jackson-datatype-jsr310-2.9.7.jar
+   src/main/scala/com/example/reuse/JsonDataFormatter.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.module/jackson-module-scala_2.12/2.10.0/343a5406ea085a42d14997c1f0ce3ca8af6e74d9/jackson-module-scala_2.12-2.10.0.jar
+   src/main/scala/com/example/reuse/JsonDataFormatter.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.10/3509860bc2e5b3da001ed45aca94ffbe5694dbda/scala-library-2.12.10.jar
+   src/main/scala/com/example/reuse/util.scala -> /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/rt.jar
+   src/main/scala/com/example/reuse/util.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/org.json/json/20190722/7bce7bacf0ab5e9f894d307a3de8b7f540064d5/json-20190722.jar
+   src/main/scala/com/example/reuse/util.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.10/3509860bc2e5b3da001ed45aca94ffbe5694dbda/scala-library-2.12.10.jar
+   src/main/scala/com/example/reuse/util.scala -> /Users/i335352/.gradle/caches/modules-2/files-2.1/org.typelevel/cats-core_2.12/2.0.0/b15de4ed2b0f31b118acab7d12cab4962df2130c/cats-core_2.12-2.0.0.jar
 source dependencies:
+   src/main/scala/com/example/DatabaseService.scala -> src/main/scala/com/example/reuse/EnvironmentUtils.scala
+   src/main/scala/com/example/DatabaseService.scala -> src/main/scala/com/example/reuse/util.scala
+   src/main/scala/com/example/HttpVerticle.scala -> src/main/scala/com/example/DatabaseService.scala
+   src/main/scala/com/example/reuse/util.scala -> src/main/scala/com/example/reuse/JsonDataFormatter.scala
 external dependencies:
 class names:
+   src/main/scala/com/example/DatabaseService.scala -> com.example.DatabaseService
+   src/main/scala/com/example/DatabaseService.scala -> com.example.DatabaseService$
+   src/main/scala/com/example/DatabaseService.scala -> com.example.PostgresProperties
+   src/main/scala/com/example/DatabaseService.scala -> com.example.PostgresProperties$
    src/main/scala/com/example/HttpVerticle.scala -> com.example.HttpVerticle
    src/main/scala/com/example/HttpVerticle.scala -> com.example.HttpVerticle$
+   src/main/scala/com/example/HttpVerticle.scala -> com.example.HttpVerticle$$typecreator1$1
+   src/main/scala/com/example/HttpVerticle.scala -> com.example.HttpVerticle$anon$macro$2$1
+   src/main/scala/com/example/HttpVerticle.scala -> com.example.test
+   src/main/scala/com/example/HttpVerticle.scala -> com.example.test$
    src/main/scala/com/example/Starter.scala -> com.example.Starter
+   src/main/scala/com/example/reuse/EnvironmentUtils.scala -> com.example.reuse.EnvironmentUtils
+   src/main/scala/com/example/reuse/EnvironmentUtils.scala -> com.example.reuse.EnvironmentUtils$
+   src/main/scala/com/example/reuse/JsonDataFormatter.scala -> com.example.reuse.JsonDataFormatter
+   src/main/scala/com/example/reuse/JsonDataFormatter.scala -> com.example.reuse.JsonDataFormatter$
+   src/main/scala/com/example/reuse/JsonDataFormatter.scala -> com.example.reuse.JsonDataFormatter$$anon$1
+   src/main/scala/com/example/reuse/util.scala -> com.example.reuse.CacheConfigUtils
+   src/main/scala/com/example/reuse/util.scala -> com.example.reuse.CacheConfigUtils$
+   src/main/scala/com/example/reuse/util.scala -> com.example.reuse.Destination
+   src/main/scala/com/example/reuse/util.scala -> com.example.reuse.Destination$
+   src/main/scala/com/example/reuse/util.scala -> com.example.reuse.SystemUtils
+   src/main/scala/com/example/reuse/util.scala -> com.example.reuse.SystemUtils$
